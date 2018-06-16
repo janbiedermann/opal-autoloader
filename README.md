@@ -1,4 +1,10 @@
 # opal-autoloader
+No need to write those
+```ruby
+require "this"
+require "that"
+```
+in your opal code everywhere.
 
 ## install
 
