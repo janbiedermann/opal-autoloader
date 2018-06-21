@@ -8,6 +8,6 @@ else
   require 'opal'
   require 'opal/autoloader/version'
 
-  Opal.append_path File.expand_path('../lib', __FILE__).untaint
+  Opal.append_path File.dirname(__FILE__).untaint
 end
 
