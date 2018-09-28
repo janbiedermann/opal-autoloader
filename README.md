@@ -36,8 +36,5 @@ For example a constant `My::Component` will be looked up in Opal.modules directl
 if it cannot be found there, it will be looked up as 'components/my/component', and so on.
 
 ## info
-This has been extracted from the ruby-hyperloop project and is originally a port of the rails autoloader.
+This was originally a port of the rails autoloader.
 
-## community
-
-Lets meet in the ruby-hyperloop gitter channel.

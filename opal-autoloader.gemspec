@@ -12,4 +12,5 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_dependency 'opal', '>= 0.11.0'
+  s.add_dependency 'opal-activesupport', '~> 0.3.1'
 end
