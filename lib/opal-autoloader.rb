@@ -1,10 +1,10 @@
 if RUBY_ENGINE == 'opal'
   require 'active_support/core_ext/module'
+  require 'active_support/core_ext/string'
   require 'opal/autoloader'
-  require 'opal/autoloader_starter'
   require 'opal/autoloader/version'
-
-  Opal::Autoloader.load_paths = %w[components models operations stores]
+  require 'opal/object_const_missing'
+  Opal::Autoloader.init
 else
   require 'opal'
   require 'opal-activesupport'
