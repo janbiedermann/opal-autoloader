@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Jan Biedermann']
   s.email       = 'jan@kursator.de'
   s.files       = %w[lib/opal/autoloader/version.rb lib/opal/autoloader.rb lib/opal/object_const_missing.rb lib/opal-autoloader.rb README.md LICENSE]
-  s.homepage    = 'https://github.com/hyperstack-org/opal-autoloader'
+  s.homepage    = 'https://github.com/isomorfeus/opal-autoloader'
   s.license     = 'MIT'
 
   s.add_dependency 'opal', '>= 0.11.0'
