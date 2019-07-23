@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = 'Autoload modules so its not necessary to "require" everything'
   s.authors     = ['Jan Biedermann']
   s.email       = 'jan@kursator.de'
-  s.files       = %w[lib/opal/autoloader/version.rb lib/opal/autoloader.rb lib/opal/autoloader_starter.rb lib/opal-autoloader.rb]
+  s.files       = %w[lib/opal/autoloader/version.rb lib/opal/autoloader.rb lib/opal/object_const_missing.rb lib/opal-autoloader.rb README.md LICENSE]
   s.homepage    = 'https://github.com/hyperstack-org/opal-autoloader'
   s.license     = 'MIT'
 
