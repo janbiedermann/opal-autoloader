@@ -26,9 +26,9 @@ require_tree 'components'
 ```
 
 ## configuration
-The look up paths can be adjusted, here the default:
+The look up paths can be added, for example:
 ```ruby
-Opal::Autoloader.load_paths = %w[components models operations stores]
+Opal::Autoloader.add_load_path('components')
 ```
 These are the module path prefixes as used in the `Opal.modules` array.
 Constants will be looked up there, if they cannot be found directly.
